@@ -1,0 +1,18 @@
+.ticketContainer{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+   
+}
+.ticketInfo{
+    display: flex;
+    flex-direction: column;
+}
+.ticketContainer span{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
