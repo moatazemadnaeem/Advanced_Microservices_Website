@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --no-cach ",
+    "test:ci": "jest",
     "start": "nodemon ./src/index.ts",
     "start2": "ts-node-dev --poll src/index.ts"
   },
