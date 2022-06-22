@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --watchAll --no-cach ",
     "start": "nodemon ./src/index.ts",
+    "test:ci": "jest",
     "start2": "ts-node-dev --poll src/index.ts"
   },
   "jest": {
