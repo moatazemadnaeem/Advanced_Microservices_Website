@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
 import { app } from './app'
 const startDB=async()=>{
+    console.log('starting up auth service...')
     if(!process.env.JWT_KEY){
         throw new Error('Jwt is not defined')
     }
