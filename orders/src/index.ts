@@ -6,6 +6,7 @@ import { TicketUpdatedListener } from './events/listeners/ticket-updated-listene
 import { ExpirationCompleteListener } from './events/listeners/expiration-complete-listener'
 import { PaymentCreatedListener } from './events/listeners/payment-created-listener'
 const startDB=async()=>{
+    console.log('starting orders service...')
     if(!process.env.JWT_KEY){
         throw new Error('Jwt is not defined')
     }
