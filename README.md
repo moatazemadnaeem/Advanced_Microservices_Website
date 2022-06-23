@@ -140,5 +140,5 @@ to do this it is very simple just do the following
 skaffold dev
 ```
 
-### Woooh we finished i hope you understand the whole process thanks for you time (:
+### Woooh we finished i hope you understand the whole process thanks for your time (:
 
