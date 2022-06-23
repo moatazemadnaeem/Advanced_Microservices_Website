@@ -21,3 +21,8 @@ jobs:
         DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
     - run: docker push moatazemadnaeem/auth
+    - uses: digitalocean/action-doctl@v2
+      with: 
+        token: 'token to connect to digital ocean please make it secret'
+    - run: doctl kubernetes cluster kubeconfig save name_of_the_cluster_on_digital_ocean
+    - run: kubectl rollout restart deployment auth-depl
