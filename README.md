@@ -1,6 +1,6 @@
 # Advanced_Microservices_Website
 
-## breif overview about the website
+## brief overview about the website
 it is advanced e-commerce microservices 
 website using next-js node-js mongo-js and express-js with authentication handling 
 payments and expiration for an order all of this done with docker 
