@@ -20,4 +20,4 @@ jobs:
       with: 
         token: 'token to connect to digital ocean please make it secret'
     - run: doctl kubernetes cluster kubeconfig save name_of_the_cluster_on_digital_ocean
-    - run: kubectl apply -f infra/k8s
+    - run: kubectl apply -f infra/k8s && kubectl apply -f infra/k8s-prod
