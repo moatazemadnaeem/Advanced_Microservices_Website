@@ -112,13 +112,13 @@ docker build -t YOUR_DOCKER_ID/service_name .
 First secret is Json Web Token secret and to set it do the following command
 
 ```sh
-kubectl create secret generic jwt-secret --from-file=JWT_KEY=Enter_Your_Secret
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=Enter_Your_Secret
 ```
 
 Second secret is stripe secret and to set it do the following command
 
 ```sh
-kubectl create secret generic stripe-secret --from-file=STRIPE_KEY=Enter_Your_Secret
+kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=Enter_Your_Secret
 ```
 
 After that you need to open a file hosts to set port mapping what i mean by that is to map localhost to ticketing.dev 
