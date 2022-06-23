@@ -20,4 +20,3 @@ kubernetes without forget to mention testing and much more
 - Making use of jest to handel testing 
 - User can create a ticket and purchase it
 
-## How the website works behind the scenes
